@@ -39,7 +39,7 @@ export function isComputerOnFire(): boolean {
  * @returns {void}
  */
 export function assertComputerIsNotOnFire() {
-    if (!isComputerOnFire()) {
+    if (isComputerOnFire()) {
         throw "The computer is on fire";
     }
 }
