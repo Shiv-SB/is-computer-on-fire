@@ -1,6 +1,6 @@
 {
   "name": "is-computer-on-fire",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Adds various helpful functions to assert the state of the machine before performing any heavy tasks.",
   "main": "is-computer-on-fire.js",
   "repository": {
@@ -20,7 +20,6 @@
     "url": "https://github.com/timmyRS/is-computer-on-fire/issues"
   },
   "homepage": "https://github.com/timmyRS/is-computer-on-fire#readme",
-  "private": true,
   "devDependencies": {
     "@types/bun": "latest"
   },
