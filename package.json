@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/timmyRS/is-computer-on-fire/issues"
   },
-  "homepage": "https://github.com/timmyRS/is-computer-on-fire#readme"
+  "homepage": "https://github.com/timmyRS/is-computer-on-fire#readme",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
 }
