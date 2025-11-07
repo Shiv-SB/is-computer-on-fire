@@ -29,6 +29,6 @@
     "typescript": "^5"
   },
   "scripts": {
-    "compile": "bunx tsc --p tsconfig.build.json",
+    "compile": "bunx tsc --p tsconfig.build.json"
   }
 }
