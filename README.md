@@ -13,6 +13,25 @@ console.log(isComputerOnFire.isComputerOnFire()); // false (unless your computer
 isComputerOnFire.assertComputerIsNotOnFire(); // no exception (unless your computer is burning)
 ```
 
+## Development & Publishing
+
+Bun is used to bundle and publish to NPM.
+
+```bash
+# To build/tranpsile:
+bun compile
+
+# To publish:
+bun publish
+```
+
+To run tests:
+```bash
+bun test
+```
+
+## License
+
 This project is licensed under the MIT License, which you may review at https://github.com/timmyRS/is-computer-on-fire/blob/master/LICENSE
 
 **Do not redistribute this code without this copyright license or our team of highly skilled lawyers will find you and they will kill you.**
